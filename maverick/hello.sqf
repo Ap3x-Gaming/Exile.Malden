@@ -1,0 +1,1 @@
+systemChat "Perks Loaded... | ctrl + t | custom key 7 |";	

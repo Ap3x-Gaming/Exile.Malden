@@ -1,0 +1,1 @@
+createDialog "CG_STARTERKIT";

@@ -1,0 +1,143 @@
+#define true 1
+#define false 0
+// Required for the XM8, do not remove!
+#include "RscDefines.hpp"
+
+///////////////////////////////////////////////////////////////////////////////
+// Server Settings - Modify at will
+///////////////////////////////////////////////////////////////////////////////
+author = "Ap3x";
+onLoadName = "https://discord.gg/DKyNb5W3hZ";
+onLoadMission= "";
+loadScreen = "PORN\LoadingScreen\logo_1.paa";
+disableChannels[] = {0, 2};
+OnLoadIntro = "";
+OnLoadIntroTime = false;
+OnLoadMissionTime = false;
+//unsafeCVL = 1;
+class Header
+{
+    gameType = Survive; // Do NOT change this
+    minPlayers = 1;
+    maxPlayers = 100;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// Exile Settings - Do not change these!
+///////////////////////////////////////////////////////////////////////////////
+forceRotorLibSimulation = 2;
+skipLobby = 1;
+joinUnassigned = 1;
+respawn = "BASE";
+respawnDelay = 120;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1;
+respawnTemplates[] = {"Exile"};
+corpseManagerMode = 0;
+corpseLimit = 20;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+scriptedPlayer = 1;
+disabledAI = 1;
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+allowFunctionsLog = 1;
+enableDebugConsole = 0;
+allowFunctionsRecompile = 0;
+showSquadRadar = 0;
+showUAVFeed = 1;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+reviveBleedOutDelay = 120;
+
+showHUD[] =
+{
+    true,   // Scripted HUD (same as showHUD command)
+    true,   // Vehicle + soldier info
+    true,   // Vehicle radar
+    true,   // Vehicle compass
+    true,   // Tank direction indicator
+    false,  // Commanding menu
+    false,  // Group Bar
+    true,   // HUD Weapon Cursors
+    true   // Vehicle Panel (Required for GPS)
+};
+
+#include "config.cpp"
+#include "CfgRemoteExec.hpp"
+
+#include "infiSTAR_defines.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+#include "infiSTAR_chat.hpp"
+#include "infiSTAR_KeyBinds.hpp"
+
+#include "xs\Spawn\Dialog\xsSpawnDefines.hpp"
+#include "xs\Spawn\Dialog\xsSpawnDiaglog.hpp" 
+
+#include "R3F_LOG\desc_include.h"
+
+//#include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
+//#include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
+
+#include "SM\Paint\RscSMPaint.hpp"
+#include "SM\Paint\CfgSMPaint.hpp"
+
+#include "ExAdClient\ExAd.cpp"
+
+#include "maverick\maverick_master.cpp"
+
+#include "SM\LockingPlus\resource\display.hpp"
+
+#include "SM\LockerPlus\SM_LockerPlus.hpp"
+
+#include "SM\LoadoutTrader\SM_LoadoutTrader.hpp"
+
+#include "starterKitC\CG_DEFINES_STARTERKIT_GUI.hpp"
+#include "starterKitC\CG_CONTROL_STARTERKIT_GUI.hpp"
+
+class CfgFunctions
+{
+	#include "ExAdClient\CfgFunctions.cpp"
+	
+	#include "maverick\maverick_functions_master.cpp"
+
+	#include "Custom\CfgFunctions.cpp"
+
+	#include "MarketByCyunide\CfgFunctions.cpp"
+
+    #include "starterKitC\CfgFunctions.hpp"
+    
+    #include "randomLoudoutsC\CfgFunctions.hpp"
+};
+class CfgSounds
+{
+    sounds[] = {0};
+    class safeTrap
+    {
+        name = "Xbrm_safeTrapped";
+        sound[] = {"addons\HEG_Xbrm_client\sFx\bomb.ogg", 1, 1};
+        titles[] = {0,""};
+    };
+    class SM_incomingMissile_warning
+    {
+        name = "SM_incomingMissile_warning";
+        sound[] = {"SM\IncomingMissile\warning.ogg", 1, 1};
+        titles[] = {};
+    };
+};
+class CfgHints
+{
+    #include "ExAdClient\CfgHints.cpp" // Only needed for ExAd Virtual Garage
+};
+class RscTitles
+{
+	#include "maverick\talent-tree-modular\gui\_masterTitles.cpp"
+	//#include "ExAdClient\RscTitles.cpp"
+	#include "Custom\StatusBar\statusBar.hpp"
+};
