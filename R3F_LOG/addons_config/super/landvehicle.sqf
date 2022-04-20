@@ -220,8 +220,7 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
-            //Cars,
-            ["CUP_C_Volha_Limo_TKCIV", 50], // Spawn Vehicle
+            //Cars
             ["B_G_Offroad_01_F", 20],
             ["B_G_Offroad_01_repair_F", 20],
             ["B_G_Quadbike_01_F", 10],
@@ -358,6 +357,7 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
             ["O_APC_Wheeled_02_rcws_F", 50], 
             ["I_APC_tracked_03_cannon_F", 50],
             ["I_MBT_03_cannon_F", 50]
+                      
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +

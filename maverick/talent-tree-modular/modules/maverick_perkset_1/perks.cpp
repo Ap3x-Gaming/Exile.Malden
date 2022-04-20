@@ -360,9 +360,9 @@ class perk_Running_Speed_2 {
 class perk_Running_Speed_3 {
 	displayName = "Master Runner";
 	requiredPerkPoints =800;
-	requiredLevel = 60;
+	requiredLevel = 80;
 	requiredPerk = "perk_Running_Speed_2";
-	subtitle = "Level 60 Required, 800 Perk Points";
+	subtitle = "Level 80 Required, 800 Perk Points";
 	description = "Masterful Running Speed<br/><br/><t color='#10FF45'>30% Faster Running</t>";
 	initScript = "maverick\talent-tree-modular\modules\maverick_perkset_1\functions\Running\functions_Running_Speed_3.sqf";
 	limitToSides[] = {};
@@ -372,9 +372,9 @@ class perk_Running_Speed_3 {
 class perk_gunsspecialist_reload_1 {
 	displayName = "No reload 1";
 	requiredPerkPoints = 2000;
-	requiredLevel = 60;
+	requiredLevel = 100;
 	requiredPerk = "";
-	subtitle = "Level 60 Required, 2000 Perk Points";
+	subtitle = "Level 100 Required, 2000 Perk Points";
 	description = "No Reload <br/><br/><t color='#10FF45'>Shoot without Reload</t>";
 	initScript = "maverick\talent-tree-modular\modules\maverick_perkset_1\functions\recoil\functions_recoilCompensation_4.sqf";
 	limitToSides[] = {};

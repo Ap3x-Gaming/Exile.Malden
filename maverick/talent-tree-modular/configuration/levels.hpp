@@ -330,36 +330,239 @@ class Level_54 {
 
 class Level_55 {
     displayName = "Level 55";
-    expRequired = 25000;
+    expRequired = 22000;
     perkPointsOnUnlock = 100;
 };
 
 class Level_56 {
     displayName = "Level 56";
-    expRequired = 30000;
+    expRequired = 24000;
     perkPointsOnUnlock = 100;
 };
 
 class Level_57 {
     displayName = "Level 57";
-    expRequired = 35000;
+    expRequired = 25000;
     perkPointsOnUnlock = 100;
 };
 
 class Level_58 {
     displayName = "Level 58";
-    expRequired = 40000;
+    expRequired = 30000;
     perkPointsOnUnlock = 100;
 };
 
 class Level_59 {
     displayName = "Level 59";
-    expRequired = 80000;
+    expRequired = 35000;
     perkPointsOnUnlock = 100;
 };
 
 class Level_60 {
     displayName = "Level 60";
-    expRequired = 120000;
+    expRequired = 40000;
     perkPointsOnUnlock = 100;
 };
+class Level_61 {
+    displayName = "Level 61";
+    expRequired = 41000;
+    perkPointsOnUnlock = 100;
+};
+class Level_62 {
+    displayName = "Level 62";
+    expRequired = 42000;
+    perkPointsOnUnlock = 100;
+};
+
+class Level_63 {
+    displayName = "Level 63";
+    expRequired = 43000;
+    perkPointsOnUnlock = 100;
+};
+class Level_64 {
+    displayName = "Level 64";
+    expRequired = 44000;
+    perkPointsOnUnlock = 100;
+};
+class Level_65 {
+    displayName = "Level 65";
+    expRequired = 45000;
+    perkPointsOnUnlock = 100;
+};
+class Level_66 {
+    displayName = "Level 66";
+    expRequired = 46000;
+    perkPointsOnUnlock = 100;
+};
+class Level_67 {
+    displayName = "Level 67";
+    expRequired = 47000;
+    perkPointsOnUnlock = 100;
+};
+
+class Level_68 {
+    displayName = "Level 68";
+    expRequired = 48000;
+    perkPointsOnUnlock = 100;
+};
+class Level_69 {
+    displayName = "Level 69";
+    expRequired = 49000;
+    perkPointsOnUnlock = 100;
+};
+class Level_70 {
+    displayName = "Level 70";
+    expRequired = 50000;
+    perkPointsOnUnlock = 100;
+};
+class Level_71 {
+    displayName = "Level 71";
+    expRequired = 51000;
+    perkPointsOnUnlock = 100;
+};
+class Level_72 {
+    displayName = "Level 72";
+    expRequired = 52000;
+    perkPointsOnUnlock = 100;
+};
+class Level_73 {
+    displayName = "Level 73";
+    expRequired = 53000;
+    perkPointsOnUnlock = 100;
+};
+class Level_74 {
+    displayName = "Level 74";
+    expRequired = 54000;
+    perkPointsOnUnlock = 100;
+};
+class Level_75 {
+    displayName = "Level 75";
+    expRequired = 55000;
+    perkPointsOnUnlock = 100;
+};
+class Level_76 {
+    displayName = "Level 76";
+    expRequired = 56000;
+    perkPointsOnUnlock = 100;
+};
+class Level_77 {
+    displayName = "Level 77";
+    expRequired = 57000;
+    perkPointsOnUnlock = 100;
+};
+class Level_78 {
+    displayName = "Level 78";
+    expRequired = 58000;
+    perkPointsOnUnlock = 100;
+};
+class Level_79 {
+    displayName = "Level 79";
+    expRequired = 59000;
+    perkPointsOnUnlock = 100;
+};
+class Level_80 {
+    displayName = "Level 80";
+    expRequired = 60000;
+    perkPointsOnUnlock = 100;
+};
+class Level_81 {
+    displayName = "Level 81";
+    expRequired = 61000;
+    perkPointsOnUnlock = 100;
+};
+class Level_82 {
+    displayName = "Level 82";
+    expRequired = 62000;
+    perkPointsOnUnlock = 100;
+};
+class Level_83 {
+    displayName = "Level 83";
+    expRequired = 63000;
+    perkPointsOnUnlock = 100;
+};
+class Level_84 {
+    displayName = "Level 84";
+    expRequired = 64000;
+    perkPointsOnUnlock = 100;
+};
+class Level_85 {
+    displayName = "Level 85";
+    expRequired = 65000;
+    perkPointsOnUnlock = 100;
+};
+class Level_86 {
+    displayName = "Level 86";
+    expRequired = 66000;
+    perkPointsOnUnlock = 100;
+};
+class Level_87 {
+    displayName = "Level 87";
+    expRequired = 67000;
+    perkPointsOnUnlock = 100;
+};
+class Level_88 {
+    displayName = "Level 88";
+    expRequired = 68000;
+    perkPointsOnUnlock = 100;
+};
+class Level_89 {
+    displayName = "Level 89";
+    expRequired = 69000;
+    perkPointsOnUnlock = 100;
+};
+class Level_90 {
+    displayName = "Level 90";
+    expRequired = 70000;
+    perkPointsOnUnlock = 100;
+};
+class Level_91 {
+    displayName = "Level 91";
+    expRequired = 71000;
+    perkPointsOnUnlock = 100;
+};
+class Level_92 {
+    displayName = "Level 92";
+    expRequired = 72000;
+    perkPointsOnUnlock = 100;
+};
+class Level_93 {
+    displayName = "Level 93";
+    expRequired = 73000;
+    perkPointsOnUnlock = 100;
+};
+class Level_94 {
+    displayName = "Level 94";
+    expRequired = 74000;
+    perkPointsOnUnlock = 100;
+};
+class Level_95 {
+    displayName = "Level 95";
+    expRequired = 75000;
+    perkPointsOnUnlock = 100;
+};
+class Level_96 {
+    displayName = "Level 96";
+    expRequired = 76000;
+    perkPointsOnUnlock = 100;
+};
+class Level_97 {
+    displayName = "Level 97";
+    expRequired = 77000;
+    perkPointsOnUnlock = 100;
+};
+class Level_98 {
+    displayName = "Level 98";
+    expRequired = 78000;
+    perkPointsOnUnlock = 100;
+};
+class Level_99 {
+    displayName = "Level 99";
+    expRequired = 79000;
+    perkPointsOnUnlock = 100;
+};
+class Level_100 {
+    displayName = "Max level";
+    expRequired = 80000;
+    perkPointsOnUnlock = 10000;
+};
+

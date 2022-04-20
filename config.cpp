@@ -804,6 +804,33 @@ class CfgInteractionMenus
  */
 class CfgInteractionModels
 {
+	// Start RWG Base Building
+	class WorkBench_Metal
+	{
+		name = "Work Bench (Metal)";
+		models[] = 
+		{
+			"workbench_metal.p3d"
+		};
+	};
+	class Anvil
+	{
+		name = "Anvil";
+		models[] = 
+		{
+			"anvil.p3d"
+		};
+	};
+	class Furnace
+	{
+		name = "Furnace";
+		models[] = 
+		{
+			"furnace.p3d"
+		};
+	};
+	//END RWG Base Building
+	
 	class WaterSource
 	{
 		name = "Water tanks, barrels, coolers or pumps";

@@ -226,7 +226,7 @@ R3F_LOG_CFG_string_condition_allow_creation_factory_on_this_client = "false";
 #include "addons_config\CUP.sqf" // REMOVE THIS LINE IF YOU DONT USE CUP VEHICLES
 #include "addons_config\Exile.sqf"
 #include "addons_config\Dutch.sqf"
-#include "addons_config\Super.sqf"
+//#include "addons_config\Super.sqf"
 //#include "addons_config\YOUR_ADDITIONAL_ADDON.sqf"
 
 /****** TOW WITH VEHICLE / REMORQUER AVEC VEHICULE ******/

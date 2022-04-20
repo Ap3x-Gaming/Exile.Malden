@@ -4,22 +4,6 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-	"I_Plane_Fighter_03_CAS_F",			// buzzerd cas
-	"I_Plane_Fighter_03_AA_F",			// buzzerd aa
-	"B_Plane_CAS_01_F",					// wipeout a10
-	"O_Plane_CAS_02_F",					// neophron
-	"B_Plane_Fighter_01_F",				// blackwasp 
-	"B_Plane_Fighter_01_Stealth_F",		// blackwasp stealth
-	"O_Plane_Fighter_02_F",				// Shikra
-	"O_Plane_Fighter_02_Stealth_F",		// Shikra stealth
-	"I_Plane_Fighter_04_F",				// gryphon
-	"CUP_B_F35B_USMC",					// 4 dropbombs / 2 sidewinders lock on //camara locking
-	"CUP_B_AV8B",						// Harrier
-	"CUP_B_L39_CZ_GREY",				// 46 Hydra
-	"CUP_B_L39_BMB_CZ",					// 4 dropping bombs
-	"CUP_B_L39_CAP_CZ",					// only main gun like GAU
-	"CUP_O_Su25_RU_2",					// 80 s8 /  2 AA / 4 AT / 250GAU
-	"CUP_O_SU34_RU"						// 180 GAU / 80 s8 / 2 AA / 6 AT
 ];
 
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
@@ -29,22 +13,6 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-	"I_Plane_Fighter_03_CAS_F",			// buzzerd cas
-	"I_Plane_Fighter_03_AA_F",			// buzzerd aa
-	"B_Plane_CAS_01_F",					// wipeout a10
-	"O_Plane_CAS_02_F",					// neophron
-	"B_Plane_Fighter_01_F",				// blackwasp 
-	"B_Plane_Fighter_01_Stealth_F",		// blackwasp stealth
-	"O_Plane_Fighter_02_F",				// Shikra
-	"O_Plane_Fighter_02_Stealth_F",		// Shikra stealth
-	"I_Plane_Fighter_04_F",				// gryphon
-	"CUP_B_F35B_USMC",					// 4 dropbombs / 2 sidewinders lock on //camara locking
-	"CUP_B_AV8B",						// Harrier
-	"CUP_B_L39_CZ_GREY",				// 46 Hydra
-	"CUP_B_L39_BMB_CZ",					// 4 dropping bombs
-	"CUP_B_L39_CAP_CZ",					// only main gun like GAU
-	"CUP_O_Su25_RU_2",					// 80 s8 /  2 AA / 4 AT / 250GAU
-	"CUP_O_SU34_RU"						// 180 GAU / 80 s8 / 2 AA / 6 AT
 ];
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
